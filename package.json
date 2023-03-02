@@ -1,0 +1,32 @@
+{
+  "name": "homework_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ihor849/homework_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ihor849/homework_JS/issues"
+  },
+  "homepage": "https://github.com/Ihor849/homework_JS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "basiclightbox": "^5.0.4",
+    "flatpickr": "^4.6.13",
+    "lodash.throttle": "^4.1.1",
+    "notiflix": "^3.2.6",
+    "simplelightbox": "^2.12.1"
+  }
+}
