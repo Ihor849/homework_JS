@@ -30,7 +30,6 @@ gallery.insertAdjacentHTML("beforeend", imageMarkup);
 
 new SimpleLightbox(".gallery a", {
   /* options */
-  captionPosition: "bottom",
-  captionDelay: "250",
+  captionDelay: 250,
   captionsData: "alt",
 });

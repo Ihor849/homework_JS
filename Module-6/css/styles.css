@@ -39,6 +39,9 @@ img {
 .item {
   color: #15cb4b;
 }
+.item-list {
+  margin-top: 10px;
+}
 .gallery__image:hover {
   transform: scale(1.03);
 }

@@ -1,10 +1,12 @@
-import { galleryItems } from "./gallery-items";
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+import { galleryItems } from './gallery-items';
+// import SimpleLightbox from 'simplelightbox';
+// import "simplelightbox/dist/simple-lightbox.min.css";
+// import '../../node_modules/simplelightbox/dist/simple-lightbox.min.css';
 
 // Change code below this line
 // / +++++++++++++++++++++  В А Р И А Н Т - 1 через С Т Р О К У ================
-const gallery = document.querySelector(".gallery");
+const gallery = document.querySelector('.gallery');
+console.log(gallery);
 const imageMarkup = createImageCardsMarkup(galleryItems);
 
 function createImageCardsMarkup(galleryItems) {
@@ -21,13 +23,13 @@ function createImageCardsMarkup(galleryItems) {
       />
     </a>`;
     })
-    .join("");
+    .join('');
 }
-gallery.insertAdjacentHTML("beforeend", imageMarkup);
+gallery.insertAdjacentHTML('beforeend', imageMarkup);
 
-new SimpleLightbox(".gallery a", {
+new SimpleLightbox('.gallery a', {
   /* options */
-  captionPosition: "bottom",
-  captionDelay: "250",
-  captionsData: "alt",
+  captionPosition: 'bottom',
+  captionDelay: '250',
+  captionsData: 'alt',
 });
